@@ -14,8 +14,7 @@ export async function list(){
         select: {
             id: true,
             name: true,
-            email: true,
-            avatar: true
+            email: true
         }
     })
     return result
@@ -29,8 +28,7 @@ export async function getById(id){
         select: {
             id: true,
             name: true,
-            email: true,
-            avatar: true
+            email: true
         }
     })
     return result
@@ -44,8 +42,7 @@ export async function remove(id){
         select: {
             id: true,
             name: true,
-            email: true,
-            avatar: true
+            email: true
         }
     })
     return result
@@ -60,8 +57,7 @@ export async function update(id, user){
         select: {
             id: true,
             name: true,
-            email: true,
-            avatar: true
+            email: true
         }
     })
     return result
@@ -78,8 +74,7 @@ export async function updateName(id, name){
         select: {
             id: true,
             name: true,
-            email: true,
-            avatar: true
+            email: true
         }
     })
     return result
@@ -95,8 +90,7 @@ export async function updateEmail(id, email) {
         select: {
             id: true,
             name: true,
-            email: true,
-            avatar: true
+            email: true
         }
     })
     return result
